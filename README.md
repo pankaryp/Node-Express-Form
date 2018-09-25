@@ -48,11 +48,15 @@ npm run dev
 ```
 Opening [`localhost:3000/login`](localhost:3000/login) you must see the login page.
 
+!['login'](login.png?raw=true)
+
 Filling the fields and submitting the form you must see the saved data inside your database.
 ```
 #In your Mongo database terminal 
 db.registers.find().pretty();
 ```
+
+!['mongo'](mongo.png?raw=true)
 
 ### Contributing
 ---
