@@ -1,2 +1,2 @@
 # Node-Express-Form
-A Node.js - Express Contact form, using Express Validator, Bcrypt, Nodemailer and ReCaptcha Validation.
+A Node.js - Express Register form, using Express Validator and Bcrypt for password hash generation.
