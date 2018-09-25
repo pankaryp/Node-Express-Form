@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/login.css">
+
+        <title>Register</title>
+    </head>
+    <body>
+    
+        <div class="container-fluid login-main">
+            <div class="container login-main-box">
+                <div class="login-main-box-title text-center">
+                    <h2>Node - Express Register Form</h2>
+                    <h3>with Express Validator & Bcrypt</h3>
+                </div>
+                <div class="login-main-box-form">
+                    <form method="POST" action="/login">
+                        <div class="form-group">
+                            <label>First name</label>
+                            <input type="text" class="form-control" name="firstName">
+                        </div>
+                        <div class="form-group">
+                            <label>Last name</label>
+                            <input type="text" class="form-control" name="lastName">
+                        </div>
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="email" class="form-control" name="email">
+                        </div>
+                        <div class="form-group">
+                            <label>Phone number</label>
+                            <input type="tel" class="form-control" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label>Password (6 or more characters)</label>
+                            <input type="password" class="form-control" name="password">
+                        </div>
+                        <div class="">
+                            <label>Repeat password</label>
+                            <input type="password" class="form-control" name="rePassword">
+                        </div>
+                        <p class="text-center">By clicking Join now, you agree to the User Agreement, Privacy Policy, and Cookie Policy.</p>
+                        <button type="submit" class="btn btn-primary text-center">Register now</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

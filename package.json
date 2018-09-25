@@ -1,0 +1,22 @@
+{
+  "name": "Node-Express-Register-form",
+  "version": "1.0.0",
+  "description": "Node-Express Register form with Express validator and Bcrypt",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Panos Karypiadis",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "express-validator": "^5.3.0",
+    "hbs": "^4.0.1",
+    "mongoose": "^5.2.17",
+    "path": "^0.12.7"
+  }
+}

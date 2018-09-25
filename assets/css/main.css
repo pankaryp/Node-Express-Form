@@ -1,0 +1,27 @@
+/* Main Page */
+h3 {
+    margin-top: 30px;
+}
+
+.main-menu {
+    height: 52px;
+    background-color: rgb(24, 141, 204);
+}
+    .main-menu h5 {
+        color: #ffff;
+        margin-top: 12px;
+        margin-left: 20px;
+    }
+    .main-menu .btn {
+        width: 90px;
+        height: 32px;
+        border-radius: 2px;
+        background-color: rgb(24, 141, 204);
+        border-color: #ffff;
+        padding: 0px;
+        margin-top: 9px;
+    }
+    .main-menu .btn:hover {
+        background-color: #ffff;
+        color: rgb(24, 141, 204);
+    }
