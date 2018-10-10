@@ -1,4 +1,7 @@
-# Node-Express-Form
+# Node-Express-Register-Form
+
+![status completed](https://img.shields.io/badge/status-completed-blue.svg)
+
 A Node.js - Express Register form, using Express Validator and Bcrypt for password hash generation.
 
 ### Prerequisites
