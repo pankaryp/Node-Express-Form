@@ -38,10 +38,9 @@ use registerForm
 ```
 * For Linux
 ```
-# First terminal window
+
 sudo service mongod start
 
-# Second Terminal window
 mongo --host 127.0.0.1:27017
 use registerForm
 ```
